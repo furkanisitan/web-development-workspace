@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: 0;
+        }
+
+        /* flex container*/
+        .container {
+            /* flex */
+            display: flex;
+            /* default: row - row => main axis: x, cross-axis: y / column => main axis: y, cross-axis: x */
+            flex-direction: row;
+            /* default: nowrap - handles overflow on main axis */
+            flex-wrap: wrap;
+            /* flex-direction flex-wrap: - sets two properties at once */
+            flex-flow: row wrap;
+            /* default: flex-start - alignment on main axis */
+            justify-content: space-between;
+            /* default: stretch - alignment on cross axis */
+            align-items: flex-start;
+
+            width: 75%;
+            margin: 0 auto;
+            min-height: 600px;
+            background: burlywood;
+        }
+
+        .box {
+            text-align: center;
+            background: cadetblue;
+            width: 220px;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="box">
+            <h3>article 1</h3>Lorem ipsum dolor sit amet.
+        </div>
+        <div class="box">
+            <h3>article 2</h3>Sed explicabo aut quaerat vel?
+        </div>
+        <div class="box">
+            <h3>article 3</h3>Ea enim excepturi officia ut.
+        </div>
+        <div class="box">
+            <h3>article 4</h3>Distinctio laborum rerum expedita sit.
+        </div>
+        <div class="box">
+            <h3>article 5</h3>Et optio ipsam illo eligendi?
+        </div>
+        <div class="box">
+            <h3>article 6</h3>Nihil qui quaerat accusantium dolorum.
+        </div>
+        <div class="box">
+            <h3>article 7</h3>Ab cupiditate dignissimos dolorum animi?
+        </div>
+        
+    </div>
+
+</body>
+</html>

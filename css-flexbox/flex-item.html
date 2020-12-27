@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex items</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: 0;
+        }
+
+        /* flex container*/
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 75%;
+            margin: 0 auto;
+            padding-top: 20px;
+            min-height: 600px;
+            background: burlywood;
+        }
+
+        .box {
+            text-align: center;
+            width: 220px;
+            height: 100px;
+            border: 1px solid black;
+        }
+
+        /* flex-items*/
+        .box-1 {
+            /* default: 0 */
+            order: 2;
+            /* overrides the container's align-items property */
+            align-self: center;
+            /* default: 0 - specifies how much it will grow on the main axis compared to other flex-items */
+            flex-grow: 1;
+            background: red;
+        }
+
+        .box-2 {
+            order: 1;
+            flex-grow: 2;
+            background: black;
+        }
+
+        .box-3 {
+            order: 3;
+            flex-grow: 3;
+            background: greenyellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+    </div>
+
+</body>
+</html>

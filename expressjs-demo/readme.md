@@ -3,7 +3,7 @@
 Simple Rest API demo with <a href="https://expressjs.com/">express-js</a> 
 
 ## Quick Start
+Run the following commands while in the root directory of the project.
 
-1. Run "npm install" command in the terminal.
-2. Add "dev": "nodemon server.js" to the scripts object in the package.json file.
-3. Run "npm run dev" command in the terminal.
+1. `npm install`
+2. `npm run dev`

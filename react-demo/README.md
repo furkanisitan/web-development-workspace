@@ -4,7 +4,8 @@ Demo project about <a href="https://reactjs.org/">React</a> .
 
 
 ## Quick Start
+Run the following commands while in the root directory of the project.
 
-1. Run "npm install" command in the terminal.
-2. Run "npm run start-api" command in the terminal.
-3. Run "npm start" command in a new terminal.
+1. `npm install`
+2. `npm run start-api`
+3. `npm start` (in a new terminal)

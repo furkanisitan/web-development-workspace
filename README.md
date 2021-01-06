@@ -13,6 +13,7 @@
 | [http-requests](./http-requests) | Different ways to make http requests. |
 | [movie-project](./movie-project) | Demo project about [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and [ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) |
 | [react-demo](./react-demo) | Demo project about [React](https://reactjs.org/) |
+| [react-redux-demo](./react-redux-demo) | Demo project about [React](https://reactjs.org/) and [Redux](https://redux.js.org) |
 | [require-and-es6-modules](./require-and-es6-modules) | require and module concept |
 | [todo-list-project](./todo-list-project) | Demo project about [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) |
 | [webpack-demo](./webpack-demo) | Demo about [webpack](https://webpack.js.org) |
